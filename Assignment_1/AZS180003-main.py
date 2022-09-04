@@ -1,7 +1,10 @@
+#Aleena Syed - AZS180003
+#CS 4395.001
+
 import sys  # to get the system parameter
 import os   # used by method 1  
 import re   # used for regex
-import pickle # used to save dict as oickle file
+import pickle # used to save dict as pickle file
 
 # Person class
 class Person:
