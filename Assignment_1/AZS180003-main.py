@@ -43,6 +43,9 @@ def processText(text_in):
             sentence[j] = sentence[j].title()
         if (text_in[i][2].isupper() == 0):
             text_in[i][2] = text_in[i][2].upper()
+        # If middle initial does not exist, use 'X'
+        if (text_in[i][2] == ''):
+            text_in[i][2] = 'X'
     return text_in
     
 # use regex to modify ID if not in proper format
