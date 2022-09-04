@@ -6,7 +6,7 @@ portfolio for assignments and reports for CS 4395
 [Overview of NLP](Overview_of_NLP.md)
 
 ## Portfolio Component 1
-[Portfolio Assignment 1](Assignment_1)
+[Portfolio Assignment 1](Assignment_1/AZS180003-main.py)
 
 This program takes in information about employees from a file, processes the text, and saves the modified text into a dict to be
 printed. 
