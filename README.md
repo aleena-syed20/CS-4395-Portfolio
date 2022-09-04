@@ -11,7 +11,7 @@ portfolio for assignments and reports for CS 4395
 This program takes in information about employees from a file, processes the text, and saves the modified text into a dict to be
 printed. 
 
-Download Assignment_1 to your machine. Run the program by running the command 'python main.py data/data.csv'.
+Download Assignment_1 to your machine. Run the program by running the command 'python3 main.py data/data.csv'.
 
 Python's extensive libraries through NLTK makes text processing easy. It has the ability to tokenize, stem, lemmatize, and much more. NLTK is free and open source as well. With comprehensize documentation, using Python for text processing is simple and efficient. 
 
