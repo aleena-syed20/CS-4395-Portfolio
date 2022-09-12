@@ -16,3 +16,6 @@ Download Assignment_1 to your machine. Run the program by running the command 'p
 Python's extensive libraries through NLTK makes text processing easy. It has the ability to tokenize, stem, lemmatize, and much more. NLTK is free and open source as well. With comprehensize documentation, using Python for text processing is simple and efficient. 
 
 I learned how to modify text through regex and saving dictionaries as pickle files. Most of the text processing was review, as well as dealing with classes and objects. 
+
+## Portfolio Component 2
+[Portfolio Assignment 2](Portfolio_Assignment_2.pdf)
