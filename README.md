@@ -22,3 +22,5 @@ I learned how to modify text through regex and saving dictionaries as pickle fil
 
 ## Portfolio Component 3
 [Portfolio Assignment 3](Word_Guess_Game/AZS180003-main.py)
+
+This program simulates a word guessing game, similar to Hangman. The user attempts to guess the word before their score dips below 0. 
