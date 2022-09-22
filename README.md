@@ -19,3 +19,6 @@ I learned how to modify text through regex and saving dictionaries as pickle fil
 
 ## Portfolio Component 2
 [Portfolio Assignment 2](Portfolio_Assignment_2.pdf)
+
+## Portfolio Component 3
+[Portfolio Assignment 3](Word_Guess_Game/AZS180003-main.py)
