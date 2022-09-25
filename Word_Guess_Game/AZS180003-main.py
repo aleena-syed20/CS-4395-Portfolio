@@ -37,7 +37,7 @@ def preprocessText(text_in):
     #print(tags[:20])
     nouns = []
     for index, tuple in enumerate(tags):
-        if (tuple[1] == 'NN'):
+        if (tuple[1] == 'NN' or tuple[1] == 'NNS'):
             nouns.append(tuple)
     print(len(listy))
     print(len(nouns))
@@ -48,9 +48,14 @@ def saveDictionary(tokens, nouns):
     for t in tokens:
         for index, tup in enumerate(nouns):
             if t == tup[0]:
-                dict_nouns[t] = tokens.index(t)
+                if t in dict_nouns:
+                    v = dict_nouns.get(t)
+                    v += 1
+                    dict_nouns[t] = v
+                else:
+                    dict_nouns[t] = 1
 
-    dict_nouns = dict(sorted(dict_nouns.items(), key=lambda item: item[1]))
+    dict_nouns = dict(sorted(dict_nouns.items(), key=lambda item: item[1], reverse=True))
     print(dict(list(dict_nouns.items())[0:50]))
     fifty_nouns = (list(dict_nouns.keys())[0:50])
     return fifty_nouns
@@ -69,7 +74,7 @@ def playGuessingGame(words):
             guess_string.append(" _")
     print("".join(guess_string))
     guessed_letter = input("Guess a letter: ")
-    while (guessed_letter != '!' or score < 0):
+    while (score >= 0 or guessed_letter == '!'):
         if guessed_letter in guess_this_word:
             score += 1
             print("Right! Score is " + str(score))
