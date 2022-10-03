@@ -27,3 +27,6 @@ This program simulates a word guessing game, similar to Hangman. The user attemp
 
 ## Portfolio Component 4
 [Portfolio Assignment 4](Portfolio_Component_4_WordNet.pdf)
+
+## Portfolio Component 5
+[Portfolio Assignment 5](Ngrams/)
