@@ -30,3 +30,6 @@ This program simulates a word guessing game, similar to Hangman. The user attemp
 
 ## Portfolio Component 5
 [Portfolio Assignment 5](Ngrams/)
+
+## Portfolio Component 6
+[Portfolio Assignment 6](Web_Crawler/)
