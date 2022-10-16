@@ -33,3 +33,9 @@ This program simulates a word guessing game, similar to Hangman. The user attemp
 
 ## Portfolio Component 6
 [Portfolio Assignment 6](Web_Crawler/)
+
+## Portfolio Component 7
+[Portfolio Assignment 7](AZS180003/Assignment7.pdf)
+
+Sentence Parsing - exploring PSG parse, dependency parse, and SRL parse. 
+
