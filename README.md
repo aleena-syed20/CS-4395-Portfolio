@@ -39,3 +39,13 @@ This program simulates a word guessing game, similar to Hangman. The user attemp
 
 Sentence Parsing - exploring PSG parse, dependency parse, and SRL parse. 
 
+## Portfolio Component 8
+[Portfolio Assignment 8](AZS180003-Author-Attribution.pdf)
+
+- Gain experience with ML using sklearn
+- Experiment with the NLP task author attribution
+
+## Portfolio Component 9
+[Portfolio Assignment 9](Chatbot_Proj/)
+
+
