@@ -1,0 +1,42 @@
+{"intents": [
+    {   
+        "tag": "greeting",
+        "patterns": ["Hello", "Hi"],
+        "responses": ["Hello, how can I help you", "Hello again, how can I help you"],
+        "context_set": ""
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["Have a nice day!", "Goodbye"],
+        "responses": ["Goodbye!", "See you next time!"]
+    },
+    {
+        "tag": "openingquestions",
+        "patterns": ["I need help picking my classes"],
+        "responses": ["Sure! What year are you?"]
+    },
+    {
+        "tag": "year",
+        "patterns": ["I am a freshman", "I am a sophomore", "I am a junior", "I am a senior"],
+        "responses": ["As a freshman, you should take important prerequisites such as CS 1336, CS 1136 and CS 2305", 
+                    "As a sophomore, you should be taking CS 2336, CS 3305, and CS 2340",
+                    "As a junior, you should be taking CS 3377, CS 3354, CS 3345, and CS 3390",
+                    "As a senior, you should be taking guided electives and senior design."]
+    },
+    {
+        "tag": "favorites",
+        "patterns": ["My favorite class is "],
+        "responses": ["Sounds like a difficult class!"]
+    },
+    {
+        "tag": "scale",
+        "patterns": ["very bad", "bad", "okay", "good", "very good"],
+        "responses": ["Oh no, we'll get back to you on that!", "Oh no, we'll follow up soon to see how we can improve", "Average is good!", "Wow, really?", "Hm, are you sure?"]
+    },
+    {
+        "tag": "graduation",
+        "patterns": ["I want to apply for graduation"],
+        "responses": ["Please submit a graduation audit and we will confirm if you can graduate in the chosen semester."]
+    }
+]
+}
