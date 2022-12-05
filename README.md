@@ -48,4 +48,7 @@ Sentence Parsing - exploring PSG parse, dependency parse, and SRL parse.
 ## Portfolio Component 9
 [Portfolio Assignment 9](Chatbot_Proj/)
 
+## Portfolio Component 10
+[Portfolio Assignment 10](AleenaSyed_NorahKhan_Text_Classification.pdf)
+
 
